@@ -1,38 +1,57 @@
-#logoImg{
-width: auto 25%;
 
 
-
-}
-
-
-
-
-
-.card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-}
-
-#header{
-    background-color:#ff7e56;
+#header {
+    background-color: #ff7e56;
     height: 85px;
 }
+.center {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.centertext {
+    margin: auto;
+    text-align: center;
+}
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
+
+img{
+    width: 90%;
+}
+
+.card-header{
+background-color: #ff7e56;
+}
+
+.alert{
+    padding: 2px;
     background-color: #ff7e56;
-}
-
-body{
-    background-color:#e8e8e8
+    display:inline-block;
 }
 
 
+a:hover{
+    text-decoration: none
+}
+
+
+a.button{
+    background-color: #ff7e56; 
+    border-radius: 15px;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-family: overpass-light;
+}
+
+
+
+
+body {
+    background-color: #e8e8e8
+}
 
 /* FONTS */
 
@@ -40,10 +59,12 @@ body{
     font-family: overpass-bold;
     src: url(fonts/overpass-bold.otf);
 }
+
 @font-face {
     font-family: overpass-light;
     src: url(fonts/overpass-light.otf);
 }
+
 @font-face {
     font-family: overpass-thin-italic;
     src: url(fonts/overpass-thin-italic.otf);
@@ -51,31 +72,38 @@ body{
 
 /* Typography */
 
-h1{
-    color: #000000;
-    font-size: 30px;;
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+    ;
     font-family: overpass-bold;
 }
 
-p1{
+p1 {
     color: #000000;
-    font-size: 15px;;
+    font-size: 15px; 
+    font-family: overpass-light;
+    display: block;
+    text-align: justify;
+}
+
+p2 {
+    color: #ffffff;
+    font-size: 15px;
+    ;
     font-family: overpass-light;
 }
 
-p2{
+p3 {
     color: #000000;
-    font-size: 15px;;
+    font-size: 15px;
+    ;
     font-family: overpass-light;
 }
 
-p3{
-    color: #000000;
-    font-size: 15px;;
-    font-family: overpass-light;
-    }
-p4{
-   color: #000000;
-   font-size: 15px;;
-   font-family: overpass-thin-italic;
+p4 {
+    color: #ffffff;
+    font-size: 15px;
+    ;
+    font-family: overpass-thin-italic;
 }
